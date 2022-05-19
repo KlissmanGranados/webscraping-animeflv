@@ -1,6 +1,6 @@
 # Webscraping animeflv
 
-Objetivo: descargar una lista de datos desde animeflv usando el navegador web y guardarla en un json; en ese sentido, se debe subir la multimedia hacia algun bucket, en este caso se usara google cloud, empleando el microservicio [files-server](https://github.com/KlissmanGranados/files-server) y finalmente, insertar esta informacion en una base de datos postgresql. Para poder emplear esta data en la implementacion de un servicio rest, adjunto enlace de la documentación en swagger: https://anime-ws.herokuapp.com/api/documentation.
+Objetivo: descargar una lista de datos desde animeflv usando el navegador web y guardarla en un json; en ese sentido, se debe subir la multimedia hacia algun bucket, en este caso se usara google cloud, empleando el microservicio [files-server](https://github.com/KlissmanGranados/files-server) y finalmente, insertar esta informacion en una base de datos postgresql. Para poder emplear esta data en la implementacion de un servicio rest. El cual esta disponible en [swagger](https://anime-ws.herokuapp.com/api/documentation) y el [repositorio](https://github.com/KlissmanGranados/anipedia) que describe el enfoque global.
 
 ### Pasos:
 
